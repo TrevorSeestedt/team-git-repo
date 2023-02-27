@@ -1,6 +1,6 @@
 import java.util.concurrent.TimeUnit;
 /**
- * Class for the Stop Watch
+ * Class for the Stop Watch with all functions outputting
  * @author Trevor Seestedt 
  */
 public class StopWatch {
@@ -18,7 +18,7 @@ public class StopWatch {
         }
     }
     public void countDownFiveMin() {
-        
+
     }
     public void countDownThirtySec() {
         
