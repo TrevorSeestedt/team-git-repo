@@ -1,8 +1,10 @@
 public class ThirtySecCommand implements Command {
-    public ThirtySecCommand(StopWatch watch) {
+    private StopWatch watch;
 
+    public ThirtySecCommand(StopWatch watch) {
+        this.watch = watch;
     }
     public void execute() {
-        
+        watch.countDownThirtySec();
     }
 }
