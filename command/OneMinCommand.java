@@ -1,3 +1,6 @@
+/**
+ * The command that calls the countDownOneMin method
+ */
 public class OneMinCommand implements Command {
     private StopWatch watch;
     

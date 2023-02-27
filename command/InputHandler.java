@@ -1,3 +1,6 @@
+/**
+ * Class that gets the input form the user and calls a command depending on the input using a hashmap
+ */
 import java.util.HashMap;
 public class InputHandler {
     private HashMap<String, Command> commands = new HashMap<String, Command>();

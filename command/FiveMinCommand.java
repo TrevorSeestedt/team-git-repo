@@ -1,3 +1,6 @@
+/**
+ * The command that calls the countDownFiveMin method
+ */
 public class FiveMinCommand implements Command {
     private StopWatch watch;
     public FiveMinCommand(StopWatch watch) {

@@ -1,3 +1,6 @@
+/**
+ * The command that calls the countDownThirtySec method
+ */
 public class ThirtySecCommand implements Command {
     private StopWatch watch;
 

@@ -1,3 +1,6 @@
+/**
+ * A Stopwatch that can set a timer for 30 seconds, 1 minute and 5 minutes
+ */
 import java.util.concurrent.TimeUnit;
 public class StopWatch {
 
@@ -39,7 +42,7 @@ public class StopWatch {
     }
     /**
      * Function will count down from 30 seconds
-     * @author Griffin Miller & Trevor Seestedt
+     * @author Griffin Miller
      */
     public void countDownThirtySec() {
         for (int i = 29; i >= 0; i--) {
