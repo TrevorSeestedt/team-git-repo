@@ -20,6 +20,10 @@ public class StopWatch {
             }
         }
     }
+    /**
+     * Function will count down from 5:00 minutes (300 seconds)
+     * @author Aidan Macklen
+     */
     public void countDownFiveMin() {
         for (int i = 299; i >= 0; i--) {
             System.out.print("\033[H\033[2J");
