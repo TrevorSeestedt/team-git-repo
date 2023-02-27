@@ -1,3 +1,8 @@
-public class FiveMinCommand {
-    
+public class FiveMinCommand implements Command {
+    public FiveMinCommand(StopWatch watch) {
+
+    }
+    public void execute() {
+        
+    }
 }
