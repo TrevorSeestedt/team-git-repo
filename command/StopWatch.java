@@ -1,13 +1,12 @@
 import java.util.concurrent.TimeUnit;
-/**
- * Class for the Stop Watch with all functions outputting
- * @author Trevor Seestedt 
- */
 public class StopWatch {
 
     public StopWatch() {
     }
-
+    /**
+     * function will print out from 00:59 to 00:00 
+     * @author Trevor Seestedt
+     */
     public void countDownOneMin() {
         for (int i = 59; i >= 0; i--) {
             System.out.print("\033[H\033[2J");
